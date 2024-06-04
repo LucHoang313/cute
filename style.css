@@ -1,69 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    min-height: 100vh; /* Ensure content fills viewport height */
-    margin: 0;
-    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .container {
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Nền màu đen */
+}
+
+.container {
     text-align: center;
-    background: #1e1e1e;
+    background: #1e1e1e; /* Nền container màu xám tối */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 800px; /* Set a maximum container width for larger screens */
-    margin: 0 auto; /* Center the container horizontally */
-  }
-  
-  h1 {
-    color: #fff;
+}
+
+h1 {
+    color: #fff; /* Chữ màu trắng */
     margin-bottom: 20px;
-  }
-  
-  select {
+}
+
+select {
     padding: 10px;
     font-size: 16px;
     margin-bottom: 20px;
-    background-color: #333;
-    color: #fff;
-    border: 1px solid #444;
+    background-color: #333; /* Nền select màu xám đậm */
+    color: #fff; /* Chữ màu trắng */
+    border: 1px solid #444; /* Viền select màu xám nhạt */
     border-radius: 4px;
-    width: 100%; /* Make select element responsive */
-  }
-  
-  .image-container {
+}
+
+.image-container {
     margin-top: 20px;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #444;
+    border: 1px solid #444; /* Viền ảnh màu xám nhạt */
     border-radius: 4px;
-  }
-  
-  /* Media queries for additional responsiveness */
-  
-  @media (max-width: 768px) {
-    /* Adjustments for smaller screens (e.g., tablets) */
-    h1 {
-      font-size: 1.5rem; /* Adjust heading size */
-    }
-    select {
-      font-size: 14px; /* Adjust select font size */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    /* Adjustments for very small screens (e.g., smartphones) */
-    .container {
-      padding: 15px; /* Reduce padding for tighter spaces */
-    }
-    img {
-      border-radius: 0; /* Remove image border radius for a cleaner look */
-    }
-  }
-  
+}
